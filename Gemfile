@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 #changer
-ruby '2.5.1'
+# ruby '2.5.1'
 
 gem 'faker'
 

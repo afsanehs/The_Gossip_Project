@@ -2397,3 +2397,912 @@ Migrating to CreateMessageReceivers (20200730195513)
   [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
   [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#saepe"], ["created_at", "2020-07-30 20:03:41.185740"], ["updated_at", "2020-07-30 20:03:41.185740"]]
   [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (1.1ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Bonniestad"], ["zip_code", "49551-6759"], ["created_at", "2020-07-30 20:10:39.204684"], ["updated_at", "2020-07-30 20:10:39.204684"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Kindrabury"], ["zip_code", "86590"], ["created_at", "2020-07-30 20:10:39.211883"], ["updated_at", "2020-07-30 20:10:39.211883"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "East Martha"], ["zip_code", "37105-4796"], ["created_at", "2020-07-30 20:10:39.226116"], ["updated_at", "2020-07-30 20:10:39.226116"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Timothyberg"], ["zip_code", "57270"], ["created_at", "2020-07-30 20:10:39.236024"], ["updated_at", "2020-07-30 20:10:39.236024"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lake Eduardo"], ["zip_code", "27896-4874"], ["created_at", "2020-07-30 20:10:39.249057"], ["updated_at", "2020-07-30 20:10:39.249057"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Cassinmouth"], ["zip_code", "95192-9741"], ["created_at", "2020-07-30 20:10:39.262172"], ["updated_at", "2020-07-30 20:10:39.262172"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.5ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "New Wally"], ["zip_code", "63223"], ["created_at", "2020-07-30 20:10:39.270200"], ["updated_at", "2020-07-30 20:10:39.270200"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "New Cristiland"], ["zip_code", "30888"], ["created_at", "2020-07-30 20:10:39.277282"], ["updated_at", "2020-07-30 20:10:39.277282"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lake Lawrence"], ["zip_code", "13453-8340"], ["created_at", "2020-07-30 20:10:39.282869"], ["updated_at", "2020-07-30 20:10:39.282869"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "North Karma"], ["zip_code", "30301-6976"], ["created_at", "2020-07-30 20:10:39.288760"], ["updated_at", "2020-07-30 20:10:39.288760"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Reinaldo"], ["last_name", "Mosciski"], ["description", "Molestiae labore explicabo in."], ["email", "tabitha@smitham-rogahn.name"], ["age", 2118137086], ["city_id", 11], ["created_at", "2020-07-30 20:10:39.330296"], ["updated_at", "2020-07-30 20:10:39.330296"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Eugenia"], ["last_name", "Swaniawski"], ["description", "Pariatur modi dolore sit."], ["email", "kim_murray@schumm-lindgren.biz"], ["age", 3124432615], ["city_id", 11], ["created_at", "2020-07-30 20:10:39.336211"], ["updated_at", "2020-07-30 20:10:39.336211"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Daniela"], ["last_name", "Hauck"], ["description", "Saepe nihil molestiae ipsa."], ["email", "grant_champlin@stamm.io"], ["age", 7565690510], ["city_id", 11], ["created_at", "2020-07-30 20:10:39.340269"], ["updated_at", "2020-07-30 20:10:39.340269"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Waylon"], ["last_name", "Kuhlman"], ["description", "Qui ipsa et provident."], ["email", "young@lang-hermiston.info"], ["age", 5837634970], ["city_id", 12], ["created_at", "2020-07-30 20:10:39.344277"], ["updated_at", "2020-07-30 20:10:39.344277"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Jim"], ["last_name", "Runolfsson"], ["description", "Sed sint corporis corrupti."], ["email", "lupe@kulas-nienow.org"], ["age", 8514042194], ["city_id", 12], ["created_at", "2020-07-30 20:10:39.348070"], ["updated_at", "2020-07-30 20:10:39.348070"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Sergio"], ["last_name", "Lynch"], ["description", "Voluptatem quam consequatur et."], ["email", "bernadine_schamberger@huels.io"], ["age", 6918069786], ["city_id", 12], ["created_at", "2020-07-30 20:10:39.352058"], ["updated_at", "2020-07-30 20:10:39.352058"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Jess"], ["last_name", "Jacobson"], ["description", "Beatae tenetur dolores incidunt."], ["email", "billy@robel-watsica.info"], ["age", 7034195007], ["city_id", 13], ["created_at", "2020-07-30 20:10:39.356387"], ["updated_at", "2020-07-30 20:10:39.356387"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Candie"], ["last_name", "Turcotte"], ["description", "Ab ratione voluptatem veritatis."], ["email", "bree.ward@brekke-labadie.net"], ["age", 6563626911], ["city_id", 13], ["created_at", "2020-07-30 20:10:39.360823"], ["updated_at", "2020-07-30 20:10:39.360823"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Armanda"], ["last_name", "Windler"], ["description", "Quis repudiandae unde qui."], ["email", "rosario_legros@ebert.info"], ["age", 4425805350], ["city_id", 13], ["created_at", "2020-07-30 20:10:39.365563"], ["updated_at", "2020-07-30 20:10:39.365563"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Charley"], ["last_name", "Fadel"], ["description", "Nesciunt accusamus nihil consectetur."], ["email", "audrey@waelchi.co"], ["age", 6066270136], ["city_id", 14], ["created_at", "2020-07-30 20:10:39.370726"], ["updated_at", "2020-07-30 20:10:39.370726"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (1.1ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Gluten-free organic banjo meh."], ["content", "Hashtag neutra cray food truck."], ["user_id", 11], ["created_at", "2020-07-30 20:10:39.384449"], ["updated_at", "2020-07-30 20:10:39.384449"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.2ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Hammock plaid echo shabby chic hoodie irony normcore everyday."], ["content", "Next level sartorial flannel kale chips franzen lumbersexual."], ["user_id", 11], ["created_at", "2020-07-30 20:10:39.390112"], ["updated_at", "2020-07-30 20:10:39.390112"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Pickled cleanse blue bottle pug viral pork belly sustainable food truck."], ["content", "Food truck kombucha pinterest chia."], ["user_id", 12], ["created_at", "2020-07-30 20:10:39.394132"], ["updated_at", "2020-07-30 20:10:39.394132"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Food truck carry mustache typewriter messenger bag."], ["content", "Lomo tacos seitan vinegar shabby chic banjo pabst."], ["user_id", 12], ["created_at", "2020-07-30 20:10:39.398300"], ["updated_at", "2020-07-30 20:10:39.398300"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Waistcoat cornhole offal kickstarter truffaut blue bottle salvia."], ["content", "3 wolf moon tofu blog wolf."], ["user_id", 13], ["created_at", "2020-07-30 20:10:39.402792"], ["updated_at", "2020-07-30 20:10:39.402792"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Cleanse banh mi chartreuse fingerstache meditation mustache."], ["content", "Brunch direct trade thundercats lomo meditation dreamcatcher squid ugh."], ["user_id", 13], ["created_at", "2020-07-30 20:10:39.406796"], ["updated_at", "2020-07-30 20:10:39.406796"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Next level wolf ethical pinterest."], ["content", "Typewriter tilde diy tousled cleanse."], ["user_id", 14], ["created_at", "2020-07-30 20:10:39.411036"], ["updated_at", "2020-07-30 20:10:39.411036"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Pop-up godard banh mi gastropub neutra bitters umami."], ["content", "Photo booth cred microdosing venmo roof."], ["user_id", 14], ["created_at", "2020-07-30 20:10:39.415456"], ["updated_at", "2020-07-30 20:10:39.415456"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Salvia trust fund goth crucifix chillwave selfies etsy."], ["content", "Pabst dreamcatcher yuccie kinfolk portland 3 wolf moon."], ["user_id", 14], ["created_at", "2020-07-30 20:10:39.419668"], ["updated_at", "2020-07-30 20:10:39.419668"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Sriracha mixtape kale chips bitters try-hard cray."], ["content", "Retro readymade brooklyn messenger bag drinking butcher."], ["user_id", 15], ["created_at", "2020-07-30 20:10:39.425453"], ["updated_at", "2020-07-30 20:10:39.425453"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Locavore scenester semiotics beard shoreditch raw denim everyday art party iphone messenger bag."], ["content", "Helvetica meditation wayfarers craft beer bushwick slow-carb paleo."], ["user_id", 15], ["created_at", "2020-07-30 20:10:39.430741"], ["updated_at", "2020-07-30 20:10:39.430741"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Selfies vhs kombucha goth trust fund swag biodiesel blog intelligentsia."], ["content", "Banh mi readymade thundercats actually fashion axe mustache put a bird on it cliche."], ["user_id", 15], ["created_at", "2020-07-30 20:10:39.435192"], ["updated_at", "2020-07-30 20:10:39.435192"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Vhs flannel schlitz direct trade williamsburg 8-bit pug."], ["content", "Plaid aesthetic pug banjo sustainable twee shabby chic."], ["user_id", 16], ["created_at", "2020-07-30 20:10:39.439364"], ["updated_at", "2020-07-30 20:10:39.439364"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Marfa kombucha loko bicycle rights hashtag."], ["content", "Vhs pork belly ramps jean shorts asymmetrical."], ["user_id", 17], ["created_at", "2020-07-30 20:10:39.443461"], ["updated_at", "2020-07-30 20:10:39.443461"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.2ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Beard humblebrag paleo chartreuse."], ["content", "Salvia chillwave keytar swag celiac typewriter selfies cold-pressed."], ["user_id", 17], ["created_at", "2020-07-30 20:10:39.447542"], ["updated_at", "2020-07-30 20:10:39.447542"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Meditation intelligentsia thundercats bushwick seitan vinegar."], ["content", "Fingerstache beard selfies kale chips."], ["user_id", 18], ["created_at", "2020-07-30 20:10:39.451652"], ["updated_at", "2020-07-30 20:10:39.451652"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.2ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Vice meh gentrify banh mi waistcoat."], ["content", "Beard bitters chillwave authentic gluten-free."], ["user_id", 18], ["created_at", "2020-07-30 20:10:39.456089"], ["updated_at", "2020-07-30 20:10:39.456089"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.2ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Jean shorts +1 xoxo biodiesel ugh."], ["content", "Celiac yuccie cardigan meditation kickstarter."], ["user_id", 18], ["created_at", "2020-07-30 20:10:39.459979"], ["updated_at", "2020-07-30 20:10:39.459979"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Microdosing chicharrones pabst next level pork belly cray art party 90's."], ["content", "Leggings cliche yolo sriracha pabst loko."], ["user_id", 19], ["created_at", "2020-07-30 20:10:39.463748"], ["updated_at", "2020-07-30 20:10:39.463748"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Ugh stumptown ethical neutra five dollar toast farm-to-table phlogiston pbr&b."], ["content", "Phlogiston direct trade bicycle rights wayfarers synth kogi."], ["user_id", 20], ["created_at", "2020-07-30 20:10:39.468247"], ["updated_at", "2020-07-30 20:10:39.468247"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.7ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#aut"], ["created_at", "2020-07-30 20:10:39.479541"], ["updated_at", "2020-07-30 20:10:39.479541"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#quod"], ["created_at", "2020-07-30 20:10:39.484299"], ["updated_at", "2020-07-30 20:10:39.484299"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#soluta"], ["created_at", "2020-07-30 20:10:39.488165"], ["updated_at", "2020-07-30 20:10:39.488165"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#provident"], ["created_at", "2020-07-30 20:10:39.491800"], ["updated_at", "2020-07-30 20:10:39.491800"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#at"], ["created_at", "2020-07-30 20:10:39.495460"], ["updated_at", "2020-07-30 20:10:39.495460"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#non"], ["created_at", "2020-07-30 20:10:39.498776"], ["updated_at", "2020-07-30 20:10:39.498776"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#numquam"], ["created_at", "2020-07-30 20:10:39.502086"], ["updated_at", "2020-07-30 20:10:39.502086"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#saepe"], ["created_at", "2020-07-30 20:10:39.505373"], ["updated_at", "2020-07-30 20:10:39.505373"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#quisquam"], ["created_at", "2020-07-30 20:10:39.508647"], ["updated_at", "2020-07-30 20:10:39.508647"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#quo"], ["created_at", "2020-07-30 20:10:39.511929"], ["updated_at", "2020-07-30 20:10:39.511929"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.8ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Beard brunch schlitz humblebrag yolo keffiyeh vhs.\", \"Marfa iphone crucifix letterpress distillery paleo.\", \"Cray direct trade brunch.\"]"], ["sender_id", 11], ["created_at", "2020-07-30 20:10:39.522896"], ["updated_at", "2020-07-30 20:10:39.522896"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.8ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lubowitzside"], ["zip_code", "21604-1952"], ["created_at", "2020-07-30 20:12:27.328143"], ["updated_at", "2020-07-30 20:12:27.328143"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "East Yuk"], ["zip_code", "43987"], ["created_at", "2020-07-30 20:12:27.336702"], ["updated_at", "2020-07-30 20:12:27.336702"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Annamariebury"], ["zip_code", "39607"], ["created_at", "2020-07-30 20:12:27.342288"], ["updated_at", "2020-07-30 20:12:27.342288"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Konopelskiside"], ["zip_code", "69771-1727"], ["created_at", "2020-07-30 20:12:27.348363"], ["updated_at", "2020-07-30 20:12:27.348363"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Colemanville"], ["zip_code", "70801-6896"], ["created_at", "2020-07-30 20:12:27.354424"], ["updated_at", "2020-07-30 20:12:27.354424"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Jeneeville"], ["zip_code", "05828"], ["created_at", "2020-07-30 20:12:27.367791"], ["updated_at", "2020-07-30 20:12:27.367791"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "South Doretha"], ["zip_code", "26613"], ["created_at", "2020-07-30 20:12:27.373164"], ["updated_at", "2020-07-30 20:12:27.373164"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Sawaynstad"], ["zip_code", "00640"], ["created_at", "2020-07-30 20:12:27.378742"], ["updated_at", "2020-07-30 20:12:27.378742"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Casperburgh"], ["zip_code", "51849-9348"], ["created_at", "2020-07-30 20:12:27.382928"], ["updated_at", "2020-07-30 20:12:27.382928"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Reggiebury"], ["zip_code", "38956-6638"], ["created_at", "2020-07-30 20:12:27.386916"], ["updated_at", "2020-07-30 20:12:27.386916"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Ivy"], ["last_name", "Robel"], ["description", "Alias aut nemo nesciunt."], ["email", "modesta_yundt@mcdermott-legros.net"], ["age", 2211184418], ["city_id", 21], ["created_at", "2020-07-30 20:12:27.419326"], ["updated_at", "2020-07-30 20:12:27.419326"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Tabitha"], ["last_name", "Gerhold"], ["description", "Dolorem vel reprehenderit quam."], ["email", "ronnie@jakubowski-shields.info"], ["age", 9212742130], ["city_id", 21], ["created_at", "2020-07-30 20:12:27.424653"], ["updated_at", "2020-07-30 20:12:27.424653"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Coletta"], ["last_name", "Hackett"], ["description", "Fugiat facere rerum architecto."], ["email", "evangeline.casper@krajcik-gislason.net"], ["age", 9694744941], ["city_id", 21], ["created_at", "2020-07-30 20:12:27.429721"], ["updated_at", "2020-07-30 20:12:27.429721"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Evelynn"], ["last_name", "Luettgen"], ["description", "Eum dignissimos animi repellat."], ["email", "shanta.hyatt@nader.io"], ["age", 4058313823], ["city_id", 22], ["created_at", "2020-07-30 20:12:27.434905"], ["updated_at", "2020-07-30 20:12:27.434905"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Katia"], ["last_name", "Strosin"], ["description", "Deleniti culpa quia aspernatur."], ["email", "hugh.christiansen@nolan.com"], ["age", 8471584428], ["city_id", 22], ["created_at", "2020-07-30 20:12:27.439608"], ["updated_at", "2020-07-30 20:12:27.439608"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Aron"], ["last_name", "Nienow"], ["description", "Quis eum dicta optio."], ["email", "jeanine.walker@predovic.info"], ["age", 8843098006], ["city_id", 22], ["created_at", "2020-07-30 20:12:27.445080"], ["updated_at", "2020-07-30 20:12:27.445080"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Nada"], ["last_name", "Jacobs"], ["description", "Et natus non porro."], ["email", "hugh_purdy@will.net"], ["age", 5421516236], ["city_id", 23], ["created_at", "2020-07-30 20:12:27.451645"], ["updated_at", "2020-07-30 20:12:27.451645"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Florentina"], ["last_name", "Schroeder"], ["description", "Temporibus sit fugit ea."], ["email", "austin_gerlach@mante-hammes.io"], ["age", 7117646866], ["city_id", 23], ["created_at", "2020-07-30 20:12:27.467353"], ["updated_at", "2020-07-30 20:12:27.467353"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Doretta"], ["last_name", "Roberts"], ["description", "Quam aperiam sed ea."], ["email", "dillon@schoen-blick.name"], ["age", 7218453815], ["city_id", 23], ["created_at", "2020-07-30 20:12:27.481027"], ["updated_at", "2020-07-30 20:12:27.481027"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Emory"], ["last_name", "Pacocha"], ["description", "Dolorem enim quam ea."], ["email", "rosendo@herzog.name"], ["age", 1577136677], ["city_id", 24], ["created_at", "2020-07-30 20:12:27.486644"], ["updated_at", "2020-07-30 20:12:27.486644"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Blue bottle kinfolk yolo banh mi tumblr."], ["content", "Vinegar shabby chic intelligentsia swag everyday food truck pabst."], ["user_id", 21], ["created_at", "2020-07-30 20:12:27.502074"], ["updated_at", "2020-07-30 20:12:27.502074"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Keytar cornhole kickstarter deep v wolf lo-fi goth."], ["content", "Thundercats lo-fi mixtape migas wolf."], ["user_id", 21], ["created_at", "2020-07-30 20:12:27.507707"], ["updated_at", "2020-07-30 20:12:27.507707"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.5ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Pbr&b art party locavore cardigan deep v."], ["content", "Thundercats ramps schlitz tousled vinyl actually yuccie."], ["user_id", 22], ["created_at", "2020-07-30 20:12:27.515320"], ["updated_at", "2020-07-30 20:12:27.515320"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Waistcoat kombucha quinoa brooklyn cliche pinterest vegan tattooed."], ["content", "Fixie tofu crucifix celiac."], ["user_id", 22], ["created_at", "2020-07-30 20:12:27.546569"], ["updated_at", "2020-07-30 20:12:27.546569"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.2ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Squid flexitarian fixie letterpress forage swag."], ["content", "Meditation marfa tote bag 3 wolf moon intelligentsia."], ["user_id", 23], ["created_at", "2020-07-30 20:12:27.550823"], ["updated_at", "2020-07-30 20:12:27.550823"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Ramps asymmetrical meh readymade yr marfa kale chips."], ["content", "Freegan wolf slow-carb chillwave small batch meh viral."], ["user_id", 23], ["created_at", "2020-07-30 20:12:27.554869"], ["updated_at", "2020-07-30 20:12:27.554869"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Food truck actually diy plaid distillery keffiyeh tattooed kale chips."], ["content", "Wolf carry 8-bit pour-over."], ["user_id", 24], ["created_at", "2020-07-30 20:12:27.558886"], ["updated_at", "2020-07-30 20:12:27.558886"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.5ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Butcher goth tattooed slow-carb distillery thundercats."], ["content", "Slow-carb narwhal cronut pitchfork artisan freegan fanny pack drinking."], ["user_id", 24], ["created_at", "2020-07-30 20:12:27.563816"], ["updated_at", "2020-07-30 20:12:27.563816"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Lumbersexual beard muggle magic pug hammock loko."], ["content", "Hella sartorial lo-fi flexitarian austin."], ["user_id", 24], ["created_at", "2020-07-30 20:12:27.570221"], ["updated_at", "2020-07-30 20:12:27.570221"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Craft beer cold-pressed sriracha knausgaard gentrify brunch xoxo chicharrones scenester."], ["content", "Flannel fixie microdosing put a bird on it heirloom typewriter."], ["user_id", 25], ["created_at", "2020-07-30 20:12:27.573912"], ["updated_at", "2020-07-30 20:12:27.573912"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Fixie mixtape readymade trust fund everyday."], ["content", "Literally taxidermy viral venmo pitchfork tofu small batch."], ["user_id", 25], ["created_at", "2020-07-30 20:12:27.577889"], ["updated_at", "2020-07-30 20:12:27.577889"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Shoreditch next level muggle magic skateboard chicharrones green juice."], ["content", "Cold-pressed farm-to-table pop-up fanny pack."], ["user_id", 25], ["created_at", "2020-07-30 20:12:27.584236"], ["updated_at", "2020-07-30 20:12:27.584236"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Ramps thundercats keffiyeh carry beard five dollar toast raw denim vhs."], ["content", "Everyday loko hammock master."], ["user_id", 26], ["created_at", "2020-07-30 20:12:27.589198"], ["updated_at", "2020-07-30 20:12:27.589198"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "+1 celiac vinyl muggle magic sustainable sriracha."], ["content", "Aesthetic cold-pressed chartreuse salvia."], ["user_id", 27], ["created_at", "2020-07-30 20:12:27.593842"], ["updated_at", "2020-07-30 20:12:27.593842"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Letterpress pop-up slow-carb godard."], ["content", "Lomo shoreditch loko organic kombucha selfies 8-bit cliche venmo."], ["user_id", 27], ["created_at", "2020-07-30 20:12:27.599283"], ["updated_at", "2020-07-30 20:12:27.599283"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Godard post-ironic dreamcatcher vice ennui banjo."], ["content", "Raw denim cardigan hella cred wayfarers migas butcher skateboard."], ["user_id", 28], ["created_at", "2020-07-30 20:12:27.604512"], ["updated_at", "2020-07-30 20:12:27.604512"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Neutra intelligentsia cred occupy pork belly leggings listicle mustache tote bag."], ["content", "Green juice park kale chips muggle magic meggings fingerstache freegan helvetica."], ["user_id", 28], ["created_at", "2020-07-30 20:12:27.608872"], ["updated_at", "2020-07-30 20:12:27.608872"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Church-key aesthetic next level flexitarian trust fund brooklyn occupy biodiesel."], ["content", "Kombucha keytar +1 pinterest celiac 90's hoodie swag."], ["user_id", 28], ["created_at", "2020-07-30 20:12:27.613559"], ["updated_at", "2020-07-30 20:12:27.613559"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Gastropub mlkshk shabby chic jean shorts."], ["content", "Cold-pressed kogi truffaut yolo irony shoreditch."], ["user_id", 29], ["created_at", "2020-07-30 20:12:27.617588"], ["updated_at", "2020-07-30 20:12:27.617588"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Neutra pabst aesthetic williamsburg roof."], ["content", "Sartorial microdosing kombucha single-origin coffee echo meditation vice."], ["user_id", 30], ["created_at", "2020-07-30 20:12:27.621791"], ["updated_at", "2020-07-30 20:12:27.621791"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#exercitationem"], ["created_at", "2020-07-30 20:12:27.630767"], ["updated_at", "2020-07-30 20:12:27.630767"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#veniam"], ["created_at", "2020-07-30 20:12:27.634899"], ["updated_at", "2020-07-30 20:12:27.634899"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#architecto"], ["created_at", "2020-07-30 20:12:27.639064"], ["updated_at", "2020-07-30 20:12:27.639064"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#doloribus"], ["created_at", "2020-07-30 20:12:27.643182"], ["updated_at", "2020-07-30 20:12:27.643182"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#non"], ["created_at", "2020-07-30 20:12:27.648353"], ["updated_at", "2020-07-30 20:12:27.648353"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#qui"], ["created_at", "2020-07-30 20:12:27.652898"], ["updated_at", "2020-07-30 20:12:27.652898"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#qui"], ["created_at", "2020-07-30 20:12:27.656641"], ["updated_at", "2020-07-30 20:12:27.656641"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#corrupti"], ["created_at", "2020-07-30 20:12:27.660300"], ["updated_at", "2020-07-30 20:12:27.660300"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#aliquid"], ["created_at", "2020-07-30 20:12:27.663863"], ["updated_at", "2020-07-30 20:12:27.663863"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#aliquam"], ["created_at", "2020-07-30 20:12:27.668177"], ["updated_at", "2020-07-30 20:12:27.668177"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.5ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"+1 truffaut marfa chartreuse pinterest pbr&b.\", \"Typewriter poutine heirloom tote bag organic.\", \"Cornhole tofu echo carry.\"]"], ["sender_id", 21], ["created_at", "2020-07-30 20:12:27.681534"], ["updated_at", "2020-07-30 20:12:27.681534"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Malkaburgh"], ["zip_code", "26467"], ["created_at", "2020-07-30 20:12:59.508375"], ["updated_at", "2020-07-30 20:12:59.508375"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "South Petra"], ["zip_code", "81394"], ["created_at", "2020-07-30 20:12:59.513572"], ["updated_at", "2020-07-30 20:12:59.513572"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "North Rogelioborough"], ["zip_code", "05484-0943"], ["created_at", "2020-07-30 20:12:59.517659"], ["updated_at", "2020-07-30 20:12:59.517659"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lake Majorbury"], ["zip_code", "31650-5737"], ["created_at", "2020-07-30 20:12:59.522495"], ["updated_at", "2020-07-30 20:12:59.522495"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Hahnport"], ["zip_code", "94668"], ["created_at", "2020-07-30 20:12:59.527421"], ["updated_at", "2020-07-30 20:12:59.527421"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lake Lucasville"], ["zip_code", "25261-9675"], ["created_at", "2020-07-30 20:12:59.531703"], ["updated_at", "2020-07-30 20:12:59.531703"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Justineside"], ["zip_code", "74332"], ["created_at", "2020-07-30 20:12:59.535743"], ["updated_at", "2020-07-30 20:12:59.535743"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Deloristown"], ["zip_code", "54518"], ["created_at", "2020-07-30 20:12:59.539772"], ["updated_at", "2020-07-30 20:12:59.539772"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "East Dexter"], ["zip_code", "36779"], ["created_at", "2020-07-30 20:12:59.544434"], ["updated_at", "2020-07-30 20:12:59.544434"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "West Denis"], ["zip_code", "13234"], ["created_at", "2020-07-30 20:12:59.549981"], ["updated_at", "2020-07-30 20:12:59.549981"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Gus"], ["last_name", "Gutmann"], ["description", "Beatae inventore facilis iste."], ["email", "kristopher_breitenberg@kuhn.name"], ["age", 3556949189], ["city_id", 31], ["created_at", "2020-07-30 20:12:59.575601"], ["updated_at", "2020-07-30 20:12:59.575601"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Donovan"], ["last_name", "Pfannerstill"], ["description", "Labore quos aut consequatur."], ["email", "lakeesha@zulauf-considine.com"], ["age", 2214040565], ["city_id", 31], ["created_at", "2020-07-30 20:12:59.581827"], ["updated_at", "2020-07-30 20:12:59.581827"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Tami"], ["last_name", "Vandervort"], ["description", "Tempora in veritatis suscipit."], ["email", "adalberto.rempel@jacobs.org"], ["age", 5271717217], ["city_id", 31], ["created_at", "2020-07-30 20:12:59.587119"], ["updated_at", "2020-07-30 20:12:59.587119"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Cassandra"], ["last_name", "Cummings"], ["description", "Quo culpa in maxime."], ["email", "coy@terry.info"], ["age", 5084713112], ["city_id", 32], ["created_at", "2020-07-30 20:12:59.592251"], ["updated_at", "2020-07-30 20:12:59.592251"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Tien"], ["last_name", "Breitenberg"], ["description", "Placeat quia fuga deserunt."], ["email", "lyman.bauch@reilly-heller.io"], ["age", 9666139958], ["city_id", 32], ["created_at", "2020-07-30 20:12:59.597486"], ["updated_at", "2020-07-30 20:12:59.597486"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Deeanna"], ["last_name", "Towne"], ["description", "Qui aut cumque dolores."], ["email", "harold@kirlin.org"], ["age", 9067191931], ["city_id", 32], ["created_at", "2020-07-30 20:12:59.602745"], ["updated_at", "2020-07-30 20:12:59.602745"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Guy"], ["last_name", "Hessel"], ["description", "Ut laboriosam suscipit repudiandae."], ["email", "paige_dibbert@kshlerin.com"], ["age", 9773829269], ["city_id", 33], ["created_at", "2020-07-30 20:12:59.611282"], ["updated_at", "2020-07-30 20:12:59.611282"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Delphia"], ["last_name", "Anderson"], ["description", "Qui eligendi iusto debitis."], ["email", "zonia_bode@friesen-wiegand.com"], ["age", 5833021447], ["city_id", 33], ["created_at", "2020-07-30 20:12:59.630801"], ["updated_at", "2020-07-30 20:12:59.630801"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Maurice"], ["last_name", "Gleichner"], ["description", "Est aut aut tempore."], ["email", "rosetta.lakin@predovic.org"], ["age", 6969269489], ["city_id", 33], ["created_at", "2020-07-30 20:12:59.642113"], ["updated_at", "2020-07-30 20:12:59.642113"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Wilfredo"], ["last_name", "Cassin"], ["description", "Voluptatem ipsa velit sed."], ["email", "minh@okuneva.net"], ["age", 2146109472], ["city_id", 34], ["created_at", "2020-07-30 20:12:59.649058"], ["updated_at", "2020-07-30 20:12:59.649058"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Williamsburg health authentic dreamcatcher heirloom before they sold out narwhal."], ["content", "Paleo whatever marfa pop-up."], ["user_id", 31], ["created_at", "2020-07-30 20:12:59.663913"], ["updated_at", "2020-07-30 20:12:59.663913"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Pork belly scenester cliche bicycle rights."], ["content", "Pour-over helvetica wes anderson typewriter knausgaard dreamcatcher pabst meh."], ["user_id", 31], ["created_at", "2020-07-30 20:12:59.669258"], ["updated_at", "2020-07-30 20:12:59.669258"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Listicle post-ironic keytar freegan park organic."], ["content", "Meggings bespoke microdosing gluten-free tilde viral."], ["user_id", 32], ["created_at", "2020-07-30 20:12:59.673895"], ["updated_at", "2020-07-30 20:12:59.673895"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Disrupt salvia kale chips lo-fi ennui flexitarian master yolo."], ["content", "Echo deep v kitsch jean shorts iphone sartorial cray."], ["user_id", 32], ["created_at", "2020-07-30 20:12:59.708356"], ["updated_at", "2020-07-30 20:12:59.708356"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Locavore chambray cardigan umami quinoa."], ["content", "Craft beer jean shorts fixie hoodie typewriter yolo pug slow-carb."], ["user_id", 33], ["created_at", "2020-07-30 20:12:59.712429"], ["updated_at", "2020-07-30 20:12:59.712429"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Yr put a bird on it everyday roof selvage."], ["content", "Aesthetic freegan kinfolk polaroid vhs."], ["user_id", 33], ["created_at", "2020-07-30 20:12:59.716562"], ["updated_at", "2020-07-30 20:12:59.716562"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Pop-up portland heirloom hashtag blog microdosing everyday scenester try-hard franzen."], ["content", "Muggle magic craft beer gentrify goth cleanse mixtape."], ["user_id", 34], ["created_at", "2020-07-30 20:12:59.721066"], ["updated_at", "2020-07-30 20:12:59.721066"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.6ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Butcher kombucha humblebrag whatever sustainable organic."], ["content", "Sartorial paleo 8-bit fanny pack lumbersexual disrupt mumblecore occupy."], ["user_id", 34], ["created_at", "2020-07-30 20:12:59.725298"], ["updated_at", "2020-07-30 20:12:59.725298"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Banh mi truffaut direct trade kinfolk xoxo kombucha."], ["content", "Crucifix thundercats tattooed phlogiston hashtag."], ["user_id", 34], ["created_at", "2020-07-30 20:12:59.733242"], ["updated_at", "2020-07-30 20:12:59.733242"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Street next level meggings taxidermy schlitz ugh williamsburg."], ["content", "Banh mi fixie literally park gastropub cornhole roof."], ["user_id", 35], ["created_at", "2020-07-30 20:12:59.737707"], ["updated_at", "2020-07-30 20:12:59.737707"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Park food truck selfies godard mumblecore vice gastropub."], ["content", "Tote bag schlitz swag meditation brunch diy portland yr."], ["user_id", 35], ["created_at", "2020-07-30 20:12:59.741439"], ["updated_at", "2020-07-30 20:12:59.741439"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.5ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Wes anderson freegan gentrify chambray vinyl chillwave food truck wolf."], ["content", "Microdosing scenester put a bird on it cardigan selvage pbr&b truffaut master tofu."], ["user_id", 35], ["created_at", "2020-07-30 20:12:59.745167"], ["updated_at", "2020-07-30 20:12:59.745167"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Muggle magic ennui park occupy you probably haven't heard of them."], ["content", "Cornhole gentrify kombucha pour-over single-origin coffee."], ["user_id", 36], ["created_at", "2020-07-30 20:12:59.751442"], ["updated_at", "2020-07-30 20:12:59.751442"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Banjo artisan phlogiston chambray helvetica."], ["content", "Godard street helvetica jean shorts locavore chambray pbr&b art party."], ["user_id", 37], ["created_at", "2020-07-30 20:12:59.755737"], ["updated_at", "2020-07-30 20:12:59.755737"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Beard thundercats viral lo-fi keffiyeh salvia single-origin coffee hoodie loko."], ["content", "Kitsch hashtag pour-over poutine single-origin coffee."], ["user_id", 37], ["created_at", "2020-07-30 20:12:59.759991"], ["updated_at", "2020-07-30 20:12:59.759991"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Gluten-free austin taxidermy fashion axe salvia pork belly church-key vegan."], ["content", "Iphone cornhole brunch ugh next level +1 wayfarers loko swag."], ["user_id", 38], ["created_at", "2020-07-30 20:12:59.764139"], ["updated_at", "2020-07-30 20:12:59.764139"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Pop-up pabst knausgaard chambray small batch forage letterpress microdosing beard."], ["content", "Blog banjo pop-up vhs franzen mixtape quinoa umami."], ["user_id", 38], ["created_at", "2020-07-30 20:12:59.768555"], ["updated_at", "2020-07-30 20:12:59.768555"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Hammock taxidermy art party letterpress thundercats pork belly flexitarian."], ["content", "Vice health gastropub celiac meditation quinoa ramps pbr&b dreamcatcher."], ["user_id", 38], ["created_at", "2020-07-30 20:12:59.772638"], ["updated_at", "2020-07-30 20:12:59.772638"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Leggings cred jean shorts tacos slow-carb cleanse."], ["content", "Actually shoreditch schlitz farm-to-table kinfolk meggings bitters marfa hoodie."], ["user_id", 39], ["created_at", "2020-07-30 20:12:59.776783"], ["updated_at", "2020-07-30 20:12:59.776783"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Yolo chillwave sriracha blue bottle park chartreuse."], ["content", "Flexitarian single-origin coffee muggle magic kogi green juice asymmetrical gastropub ennui iphone."], ["user_id", 40], ["created_at", "2020-07-30 20:12:59.781460"], ["updated_at", "2020-07-30 20:12:59.781460"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#sed"], ["created_at", "2020-07-30 20:12:59.790780"], ["updated_at", "2020-07-30 20:12:59.790780"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#tempora"], ["created_at", "2020-07-30 20:12:59.795079"], ["updated_at", "2020-07-30 20:12:59.795079"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#soluta"], ["created_at", "2020-07-30 20:12:59.799051"], ["updated_at", "2020-07-30 20:12:59.799051"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#quo"], ["created_at", "2020-07-30 20:12:59.803472"], ["updated_at", "2020-07-30 20:12:59.803472"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#nulla"], ["created_at", "2020-07-30 20:12:59.807783"], ["updated_at", "2020-07-30 20:12:59.807783"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#consectetur"], ["created_at", "2020-07-30 20:12:59.811425"], ["updated_at", "2020-07-30 20:12:59.811425"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#consequatur"], ["created_at", "2020-07-30 20:12:59.815642"], ["updated_at", "2020-07-30 20:12:59.815642"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#animi"], ["created_at", "2020-07-30 20:12:59.819875"], ["updated_at", "2020-07-30 20:12:59.819875"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#a"], ["created_at", "2020-07-30 20:12:59.823756"], ["updated_at", "2020-07-30 20:12:59.823756"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.5ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#illum"], ["created_at", "2020-07-30 20:12:59.827668"], ["updated_at", "2020-07-30 20:12:59.827668"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Swag iphone williamsburg.\", \"Whatever vegan viral pug wes anderson.\", \"Master post-ironic mustache fashion axe.\"]"], ["sender_id", 31], ["created_at", "2020-07-30 20:12:59.843256"], ["updated_at", "2020-07-30 20:12:59.843256"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200729225644)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "description" text, "email" varchar, "age" integer, "city_id" integer, "private_message_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_users_on_city_id" ON "users" ("city_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_users_on_private_message_id" ON "users" ("private_message_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200729225644"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateGossips (20200729234314)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "gossips" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" text, "user_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_gossips_on_user_id" ON "gossips" ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200729234314"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCities (20200729235623)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "cities" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "zip_code" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200729235623"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateTags (20200730000236)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "tags" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200730000236"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreatePrivateMessages (20200730095010)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "private_messages" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "sender_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200730095010"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateMessageReceivers (20200730195513)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "message_receivers" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "private_message_id" integer, "user_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200730195513"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-07-30 20:14:33.029035"], ["updated_at", "2020-07-30 20:14:33.029035"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.5ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "West Willis"], ["zip_code", "17367-0797"], ["created_at", "2020-07-30 20:14:40.361768"], ["updated_at", "2020-07-30 20:14:40.361768"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Osinskihaven"], ["zip_code", "81542"], ["created_at", "2020-07-30 20:14:40.366821"], ["updated_at", "2020-07-30 20:14:40.366821"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "New Jess"], ["zip_code", "62035-7322"], ["created_at", "2020-07-30 20:14:40.371180"], ["updated_at", "2020-07-30 20:14:40.371180"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lake Jose"], ["zip_code", "29953"], ["created_at", "2020-07-30 20:14:40.375025"], ["updated_at", "2020-07-30 20:14:40.375025"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "South Jodyborough"], ["zip_code", "83186"], ["created_at", "2020-07-30 20:14:40.379393"], ["updated_at", "2020-07-30 20:14:40.379393"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lake Jackelineside"], ["zip_code", "56356-8716"], ["created_at", "2020-07-30 20:14:40.383624"], ["updated_at", "2020-07-30 20:14:40.383624"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Johnstonview"], ["zip_code", "92312-1807"], ["created_at", "2020-07-30 20:14:40.387624"], ["updated_at", "2020-07-30 20:14:40.387624"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "East Daineland"], ["zip_code", "51699"], ["created_at", "2020-07-30 20:14:40.391640"], ["updated_at", "2020-07-30 20:14:40.391640"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Donnellville"], ["zip_code", "34152-1106"], ["created_at", "2020-07-30 20:14:40.395728"], ["updated_at", "2020-07-30 20:14:40.395728"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lissetteborough"], ["zip_code", "64049-2580"], ["created_at", "2020-07-30 20:14:40.399917"], ["updated_at", "2020-07-30 20:14:40.399917"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Julie"], ["last_name", "Dooley"], ["description", "Accusantium excepturi illo mollitia."], ["email", "brian@schinner-will.io"], ["age", 8871662859], ["city_id", 1], ["created_at", "2020-07-30 20:14:40.428334"], ["updated_at", "2020-07-30 20:14:40.428334"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Kirby"], ["last_name", "Rempel"], ["description", "Itaque enim aut at."], ["email", "fletcher@abernathy.io"], ["age", 8946069087], ["city_id", 1], ["created_at", "2020-07-30 20:14:40.434065"], ["updated_at", "2020-07-30 20:14:40.434065"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Lennie"], ["last_name", "Hagenes"], ["description", "Cum enim vel ut."], ["email", "shirley.keebler@nolan-tillman.com"], ["age", 8093368488], ["city_id", 1], ["created_at", "2020-07-30 20:14:40.439008"], ["updated_at", "2020-07-30 20:14:40.439008"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Dian"], ["last_name", "Crist"], ["description", "Nisi et velit perspiciatis."], ["email", "keely@hand.net"], ["age", 4793073695], ["city_id", 2], ["created_at", "2020-07-30 20:14:40.443722"], ["updated_at", "2020-07-30 20:14:40.443722"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Matha"], ["last_name", "Kshlerin"], ["description", "Omnis rerum perferendis aut."], ["email", "tod@braun.biz"], ["age", 5126650875], ["city_id", 2], ["created_at", "2020-07-30 20:14:40.448943"], ["updated_at", "2020-07-30 20:14:40.448943"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Harley"], ["last_name", "Sawayn"], ["description", "Voluptates quia at ut."], ["email", "domenic@schroeder.name"], ["age", 3880412027], ["city_id", 2], ["created_at", "2020-07-30 20:14:40.460757"], ["updated_at", "2020-07-30 20:14:40.460757"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Roberto"], ["last_name", "Sipes"], ["description", "Dicta consequatur ipsum ut."], ["email", "lorinda_schroeder@bradtke.io"], ["age", 4536534810], ["city_id", 3], ["created_at", "2020-07-30 20:14:40.468553"], ["updated_at", "2020-07-30 20:14:40.468553"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Brittaney"], ["last_name", "Fisher"], ["description", "Non et non id."], ["email", "sheryll@baumbach.io"], ["age", 6819957514], ["city_id", 3], ["created_at", "2020-07-30 20:14:40.484466"], ["updated_at", "2020-07-30 20:14:40.484466"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Tawanna"], ["last_name", "Reichel"], ["description", "Excepturi praesentium rerum quaerat."], ["email", "les.mraz@walker.org"], ["age", 1630542224], ["city_id", 3], ["created_at", "2020-07-30 20:14:40.495136"], ["updated_at", "2020-07-30 20:14:40.495136"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Amado"], ["last_name", "Boyer"], ["description", "Voluptatem asperiores enim exercitationem."], ["email", "wilhelmina_dibbert@koss.net"], ["age", 2752192003], ["city_id", 4], ["created_at", "2020-07-30 20:14:40.501208"], ["updated_at", "2020-07-30 20:14:40.501208"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Wayfarers drinking tilde bushwick aesthetic neutra waistcoat everyday synth."], ["content", "Distillery single-origin coffee messenger bag chillwave tattooed 8-bit direct trade migas pour-over."], ["user_id", 1], ["created_at", "2020-07-30 20:14:40.515318"], ["updated_at", "2020-07-30 20:14:40.515318"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Cornhole williamsburg cronut portland."], ["content", "Kickstarter trust fund 3 wolf moon typewriter diy."], ["user_id", 1], ["created_at", "2020-07-30 20:14:40.521057"], ["updated_at", "2020-07-30 20:14:40.521057"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Kogi roof celiac try-hard."], ["content", "Chicharrones ramps loko cold-pressed portland."], ["user_id", 2], ["created_at", "2020-07-30 20:14:40.525913"], ["updated_at", "2020-07-30 20:14:40.525913"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.9ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Diy williamsburg vhs slow-carb heirloom hammock mustache."], ["content", "Lomo brooklyn direct trade banh mi."], ["user_id", 2], ["created_at", "2020-07-30 20:14:40.560357"], ["updated_at", "2020-07-30 20:14:40.560357"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Kinfolk tacos cred pug messenger bag."], ["content", "Mlkshk kinfolk offal cray."], ["user_id", 3], ["created_at", "2020-07-30 20:14:40.566279"], ["updated_at", "2020-07-30 20:14:40.566279"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.2ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Pop-up intelligentsia kogi selfies pinterest iphone."], ["content", "Poutine everyday retro sriracha muggle magic dreamcatcher kinfolk sartorial chia."], ["user_id", 3], ["created_at", "2020-07-30 20:14:40.570195"], ["updated_at", "2020-07-30 20:14:40.570195"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Carry muggle magic kickstarter vinyl messenger bag kogi cronut helvetica iphone."], ["content", "Meditation kitsch sustainable green juice."], ["user_id", 4], ["created_at", "2020-07-30 20:14:40.574206"], ["updated_at", "2020-07-30 20:14:40.574206"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Tilde street slow-carb bicycle rights irony art party ethical flannel shoreditch."], ["content", "3 wolf moon williamsburg quinoa goth asymmetrical 90's everyday iphone."], ["user_id", 4], ["created_at", "2020-07-30 20:14:40.579716"], ["updated_at", "2020-07-30 20:14:40.579716"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Echo polaroid pour-over blog lumbersexual."], ["content", "Diy craft beer yuccie marfa tote bag butcher park vice flannel."], ["user_id", 4], ["created_at", "2020-07-30 20:14:40.585284"], ["updated_at", "2020-07-30 20:14:40.585284"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Swag shoreditch marfa vinegar aesthetic migas try-hard 3 wolf moon cray."], ["content", "Chia literally salvia fixie aesthetic chartreuse intelligentsia truffaut forage."], ["user_id", 5], ["created_at", "2020-07-30 20:14:40.590037"], ["updated_at", "2020-07-30 20:14:40.590037"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Next level humblebrag franzen cardigan +1 kickstarter."], ["content", "Cred franzen post-ironic viral diy everyday kale chips."], ["user_id", 5], ["created_at", "2020-07-30 20:14:40.594553"], ["updated_at", "2020-07-30 20:14:40.594553"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Bushwick wes anderson humblebrag cliche tilde seitan."], ["content", "8-bit typewriter lomo tofu seitan blog semiotics."], ["user_id", 5], ["created_at", "2020-07-30 20:14:40.599072"], ["updated_at", "2020-07-30 20:14:40.599072"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Fingerstache photo booth readymade chambray cardigan goth farm-to-table diy humblebrag mumblecore."], ["content", "Craft beer cronut godard offal humblebrag asymmetrical."], ["user_id", 6], ["created_at", "2020-07-30 20:14:40.603174"], ["updated_at", "2020-07-30 20:14:40.603174"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Pbr&b flexitarian synth umami brunch actually kogi butcher migas narwhal."], ["content", "Try-hard disrupt kogi park gastropub."], ["user_id", 7], ["created_at", "2020-07-30 20:14:40.607135"], ["updated_at", "2020-07-30 20:14:40.607135"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Cray raw denim brooklyn austin beard."], ["content", "Raw denim trust fund mustache tattooed park."], ["user_id", 7], ["created_at", "2020-07-30 20:14:40.611213"], ["updated_at", "2020-07-30 20:14:40.611213"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Direct trade lomo waistcoat jean shorts flexitarian."], ["content", "Craft beer pbr&b banjo helvetica butcher ethical iphone."], ["user_id", 8], ["created_at", "2020-07-30 20:14:40.615923"], ["updated_at", "2020-07-30 20:14:40.615923"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Slow-carb wes anderson microdosing literally fashion axe."], ["content", "Blue bottle distillery gastropub ethical lo-fi letterpress vegan authentic art party."], ["user_id", 8], ["created_at", "2020-07-30 20:14:40.620023"], ["updated_at", "2020-07-30 20:14:40.620023"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Yolo tofu blog asymmetrical xoxo."], ["content", "Butcher skateboard umami crucifix vegan +1 microdosing."], ["user_id", 8], ["created_at", "2020-07-30 20:14:40.623941"], ["updated_at", "2020-07-30 20:14:40.623941"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Plaid meditation pinterest freegan hashtag poutine fingerstache flannel."], ["content", "Bespoke scenester normcore austin cardigan seitan artisan pabst 8-bit."], ["user_id", 9], ["created_at", "2020-07-30 20:14:40.628520"], ["updated_at", "2020-07-30 20:14:40.628520"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Lomo tote bag try-hard hoodie wolf."], ["content", "Pork belly yolo leggings godard."], ["user_id", 10], ["created_at", "2020-07-30 20:14:40.633452"], ["updated_at", "2020-07-30 20:14:40.633452"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#aliquid"], ["created_at", "2020-07-30 20:14:40.642820"], ["updated_at", "2020-07-30 20:14:40.642820"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#vel"], ["created_at", "2020-07-30 20:14:40.646810"], ["updated_at", "2020-07-30 20:14:40.646810"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#possimus"], ["created_at", "2020-07-30 20:14:40.651085"], ["updated_at", "2020-07-30 20:14:40.651085"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#at"], ["created_at", "2020-07-30 20:14:40.655531"], ["updated_at", "2020-07-30 20:14:40.655531"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#illum"], ["created_at", "2020-07-30 20:14:40.659464"], ["updated_at", "2020-07-30 20:14:40.659464"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#voluptatem"], ["created_at", "2020-07-30 20:14:40.668129"], ["updated_at", "2020-07-30 20:14:40.668129"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#odio"], ["created_at", "2020-07-30 20:14:40.672929"], ["updated_at", "2020-07-30 20:14:40.672929"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#laboriosam"], ["created_at", "2020-07-30 20:14:40.677021"], ["updated_at", "2020-07-30 20:14:40.677021"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#quis"], ["created_at", "2020-07-30 20:14:40.681285"], ["updated_at", "2020-07-30 20:14:40.681285"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#quis"], ["created_at", "2020-07-30 20:14:40.685754"], ["updated_at", "2020-07-30 20:14:40.685754"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Vhs roof chia kickstarter cardigan trust fund hella.\", \"Cardigan tote bag photo booth cred kogi kombucha synth.\", \"Vinyl literally shabby chic waistcoat drinking flexitarian thundercats.\"]"], ["sender_id", 1], ["created_at", "2020-07-30 20:14:40.697943"], ["updated_at", "2020-07-30 20:14:40.697943"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMessageReceiver Create (0.4ms)[0m  [1m[32mINSERT INTO "message_receivers" ("private_message_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["private_message_id", 1], ["user_id", 2], ["created_at", "2020-07-30 20:14:40.716283"], ["updated_at", "2020-07-30 20:14:40.716283"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMessageReceiver Create (0.2ms)[0m  [1m[32mINSERT INTO "message_receivers" ("private_message_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["private_message_id", 1], ["user_id", 3], ["created_at", "2020-07-30 20:14:40.720319"], ["updated_at", "2020-07-30 20:14:40.720319"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Offal helvetica master cornhole forage meditation dreamcatcher.\", \"Kogi tofu vinyl.\", \"Hoodie salvia thundercats normcore bushwick iphone tilde.\"]"], ["sender_id", 2], ["created_at", "2020-07-30 20:14:40.724371"], ["updated_at", "2020-07-30 20:14:40.724371"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Deep v fashion axe waistcoat stumptown pinterest.\", \"Pitchfork banjo yolo schlitz godard wes anderson.\", \"Artisan put a bird on it food truck.\"]"], ["sender_id", 3], ["created_at", "2020-07-30 20:14:40.728123"], ["updated_at", "2020-07-30 20:14:40.728123"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Pabst cliche listicle keffiyeh pop-up plaid migas.\", \"Master vice neutra chambray biodiesel direct trade lumbersexual.\", \"Health godard selfies occupy.\"]"], ["sender_id", 4], ["created_at", "2020-07-30 20:14:40.732912"], ["updated_at", "2020-07-30 20:14:40.732912"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Irony salvia knausgaard cred stumptown vinyl polaroid.\", \"Cornhole typewriter next level iphone hammock godard.\", \"Street semiotics pour-over vhs loko synth chillwave.\"]"], ["sender_id", 5], ["created_at", "2020-07-30 20:14:40.737144"], ["updated_at", "2020-07-30 20:14:40.737144"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Cliche helvetica ennui pour-over williamsburg wayfarers.\", \"Park typewriter meditation health chia aesthetic literally iphone.\", \"Neutra +1 pabst messenger bag pork belly selfies yolo listicle.\"]"], ["sender_id", 6], ["created_at", "2020-07-30 20:14:40.741294"], ["updated_at", "2020-07-30 20:14:40.741294"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Plaid fanny pack schlitz gastropub truffaut polaroid yuccie kickstarter.\", \"Sartorial quinoa carry disrupt cronut brooklyn.\", \"Shoreditch lumbersexual cronut bushwick phlogiston.\"]"], ["sender_id", 7], ["created_at", "2020-07-30 20:14:40.745216"], ["updated_at", "2020-07-30 20:14:40.745216"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Drinking before they sold out put a bird on it dreamcatcher literally carry tofu.\", \"Drinking plaid 8-bit.\", \"Fixie photo booth pinterest yr carry quinoa leggings vinyl.\"]"], ["sender_id", 8], ["created_at", "2020-07-30 20:14:40.749806"], ["updated_at", "2020-07-30 20:14:40.749806"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Pug selvage muggle magic chartreuse brooklyn tofu.\", \"Goth cray locavore helvetica carry.\", \"Yolo park beard.\"]"], ["sender_id", 9], ["created_at", "2020-07-30 20:14:40.754673"], ["updated_at", "2020-07-30 20:14:40.754673"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Readymade tumblr chillwave kickstarter kombucha mixtape aesthetic tofu.\", \"Street chambray cliche.\", \"Flannel taxidermy mixtape flexitarian.\"]"], ["sender_id", 10], ["created_at", "2020-07-30 20:14:40.758840"], ["updated_at", "2020-07-30 20:14:40.758840"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Watersside"], ["zip_code", "24792"], ["created_at", "2020-07-30 20:15:01.570133"], ["updated_at", "2020-07-30 20:15:01.570133"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Heathcoteland"], ["zip_code", "06101"], ["created_at", "2020-07-30 20:15:01.576006"], ["updated_at", "2020-07-30 20:15:01.576006"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Carmelofurt"], ["zip_code", "65027-1007"], ["created_at", "2020-07-30 20:15:01.580154"], ["updated_at", "2020-07-30 20:15:01.580154"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Hettieburgh"], ["zip_code", "00888"], ["created_at", "2020-07-30 20:15:01.584202"], ["updated_at", "2020-07-30 20:15:01.584202"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "West Therontown"], ["zip_code", "19804"], ["created_at", "2020-07-30 20:15:01.588794"], ["updated_at", "2020-07-30 20:15:01.588794"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lake Jesusa"], ["zip_code", "86121-2265"], ["created_at", "2020-07-30 20:15:01.593236"], ["updated_at", "2020-07-30 20:15:01.593236"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Streichland"], ["zip_code", "31532"], ["created_at", "2020-07-30 20:15:01.597122"], ["updated_at", "2020-07-30 20:15:01.597122"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Valeristad"], ["zip_code", "08941-1831"], ["created_at", "2020-07-30 20:15:01.600900"], ["updated_at", "2020-07-30 20:15:01.600900"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Walterchester"], ["zip_code", "15237-0964"], ["created_at", "2020-07-30 20:15:01.604844"], ["updated_at", "2020-07-30 20:15:01.604844"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCity Create (0.2ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "South Armandinachester"], ["zip_code", "31495-8798"], ["created_at", "2020-07-30 20:15:01.608880"], ["updated_at", "2020-07-30 20:15:01.608880"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Shanel"], ["last_name", "Rath"], ["description", "Aperiam id aspernatur maxime."], ["email", "donn@johnston.com"], ["age", 5657692774], ["city_id", 11], ["created_at", "2020-07-30 20:15:01.635725"], ["updated_at", "2020-07-30 20:15:01.635725"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Judson"], ["last_name", "Murazik"], ["description", "Sit tenetur fuga exercitationem."], ["email", "alaina_bernier@price.info"], ["age", 3561952016], ["city_id", 11], ["created_at", "2020-07-30 20:15:01.641539"], ["updated_at", "2020-07-30 20:15:01.641539"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Shirley"], ["last_name", "Weber"], ["description", "Veritatis omnis quo veniam."], ["email", "buford@brown-schmeler.com"], ["age", 7446350143], ["city_id", 11], ["created_at", "2020-07-30 20:15:01.647456"], ["updated_at", "2020-07-30 20:15:01.647456"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Mireya"], ["last_name", "Schulist"], ["description", "Molestiae et quaerat et."], ["email", "clement@lowe.info"], ["age", 6584641685], ["city_id", 12], ["created_at", "2020-07-30 20:15:01.655659"], ["updated_at", "2020-07-30 20:15:01.655659"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Fatima"], ["last_name", "Becker"], ["description", "Est placeat optio earum."], ["email", "josefina.collins@schuster.org"], ["age", 2851662625], ["city_id", 12], ["created_at", "2020-07-30 20:15:01.661870"], ["updated_at", "2020-07-30 20:15:01.661870"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Lauralee"], ["last_name", "Kling"], ["description", "Animi ea velit aut."], ["email", "foster.orn@zboncak.org"], ["age", 5211399741], ["city_id", 12], ["created_at", "2020-07-30 20:15:01.671030"], ["updated_at", "2020-07-30 20:15:01.671030"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Soon"], ["last_name", "Heller"], ["description", "Dolor facere temporibus cum."], ["email", "marylee_spencer@stokes.org"], ["age", 3132598543], ["city_id", 13], ["created_at", "2020-07-30 20:15:01.677428"], ["updated_at", "2020-07-30 20:15:01.677428"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Raymond"], ["last_name", "McCullough"], ["description", "Ducimus nihil qui sunt."], ["email", "dane.heidenreich@gulgowski.com"], ["age", 9373352443], ["city_id", 13], ["created_at", "2020-07-30 20:15:01.692026"], ["updated_at", "2020-07-30 20:15:01.692026"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Brian"], ["last_name", "Johnson"], ["description", "Soluta aliquid expedita consectetur."], ["email", "coleman@greenholt.io"], ["age", 9940736495], ["city_id", 13], ["created_at", "2020-07-30 20:15:01.704604"], ["updated_at", "2020-07-30 20:15:01.704604"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Shelby"], ["last_name", "Waelchi"], ["description", "Dolores odit reprehenderit quis."], ["email", "arturo_larkin@mosciski.com"], ["age", 1464089878], ["city_id", 14], ["created_at", "2020-07-30 20:15:01.710731"], ["updated_at", "2020-07-30 20:15:01.710731"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Helvetica humblebrag locavore blue bottle street hammock health +1 tousled."], ["content", "Forage blue bottle schlitz hella."], ["user_id", 11], ["created_at", "2020-07-30 20:15:01.724553"], ["updated_at", "2020-07-30 20:15:01.724553"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Meditation austin flexitarian franzen."], ["content", "+1 small batch vinyl tousled loko gluten-free sustainable jean shorts wolf."], ["user_id", 11], ["created_at", "2020-07-30 20:15:01.730451"], ["updated_at", "2020-07-30 20:15:01.730451"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Ennui ramps readymade chartreuse brunch."], ["content", "Pour-over roof vinyl mlkshk carry diy biodiesel."], ["user_id", 12], ["created_at", "2020-07-30 20:15:01.736061"], ["updated_at", "2020-07-30 20:15:01.736061"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Brooklyn yr health food truck cronut keffiyeh sartorial craft beer."], ["content", "Wolf deep v carry humblebrag."], ["user_id", 12], ["created_at", "2020-07-30 20:15:01.741574"], ["updated_at", "2020-07-30 20:15:01.741574"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Narwhal kale chips hella listicle phlogiston."], ["content", "Humblebrag brooklyn ethical plaid."], ["user_id", 13], ["created_at", "2020-07-30 20:15:01.777842"], ["updated_at", "2020-07-30 20:15:01.777842"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Before they sold out kickstarter sustainable sartorial beard vinegar 8-bit slow-carb."], ["content", "Lo-fi selfies chia cornhole thundercats."], ["user_id", 13], ["created_at", "2020-07-30 20:15:01.781923"], ["updated_at", "2020-07-30 20:15:01.781923"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chia meditation sriracha deep v scenester semiotics photo booth helvetica asymmetrical bitters."], ["content", "Mlkshk vinyl muggle magic thundercats green juice."], ["user_id", 14], ["created_at", "2020-07-30 20:15:01.786121"], ["updated_at", "2020-07-30 20:15:01.786121"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Freegan swag intelligentsia pabst salvia craft beer."], ["content", "Green juice cliche authentic street post-ironic tofu fashion axe etsy hella."], ["user_id", 14], ["created_at", "2020-07-30 20:15:01.790183"], ["updated_at", "2020-07-30 20:15:01.790183"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Street fashion axe flexitarian art party leggings sustainable kogi."], ["content", "Venmo deep v vice jean shorts listicle williamsburg dreamcatcher whatever."], ["user_id", 14], ["created_at", "2020-07-30 20:15:01.794996"], ["updated_at", "2020-07-30 20:15:01.794996"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Leggings cred venmo everyday mumblecore chicharrones."], ["content", "You probably haven't heard of them craft beer organic bicycle rights tumblr chicharrones."], ["user_id", 15], ["created_at", "2020-07-30 20:15:01.800014"], ["updated_at", "2020-07-30 20:15:01.800014"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Selfies meh direct trade celiac swag austin banh mi."], ["content", "Farm-to-table etsy taxidermy crucifix pabst wes anderson."], ["user_id", 15], ["created_at", "2020-07-30 20:15:01.804816"], ["updated_at", "2020-07-30 20:15:01.804816"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Letterpress stumptown pop-up crucifix occupy sartorial."], ["content", "Vhs ramps blue bottle helvetica food truck stumptown."], ["user_id", 15], ["created_at", "2020-07-30 20:15:01.809168"], ["updated_at", "2020-07-30 20:15:01.809168"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Pork belly semiotics skateboard scenester."], ["content", "Twee salvia cred truffaut mlkshk hammock."], ["user_id", 16], ["created_at", "2020-07-30 20:15:01.813138"], ["updated_at", "2020-07-30 20:15:01.813138"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.6ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Pug muggle magic mlkshk pitchfork church-key vegan biodiesel wolf bicycle rights synth."], ["content", "Lumbersexual pickled vegan disrupt jean shorts 8-bit cliche keffiyeh."], ["user_id", 17], ["created_at", "2020-07-30 20:15:01.817846"], ["updated_at", "2020-07-30 20:15:01.817846"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chia meditation sriracha."], ["content", "Seitan locavore listicle migas wayfarers."], ["user_id", 17], ["created_at", "2020-07-30 20:15:01.824277"], ["updated_at", "2020-07-30 20:15:01.824277"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Fashion axe lumbersexual phlogiston yuccie bushwick vinegar beard direct trade keytar."], ["content", "Cold-pressed five dollar toast knausgaard street cornhole etsy cray slow-carb lomo."], ["user_id", 18], ["created_at", "2020-07-30 20:15:01.828461"], ["updated_at", "2020-07-30 20:15:01.828461"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Muggle magic you probably haven't heard of them cold-pressed pug yolo direct trade quinoa."], ["content", "Knausgaard echo franzen pour-over."], ["user_id", 18], ["created_at", "2020-07-30 20:15:01.832862"], ["updated_at", "2020-07-30 20:15:01.832862"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "8-bit butcher loko polaroid portland ethical mustache blue bottle meggings."], ["content", "Scenester actually yr helvetica waistcoat fashion axe humblebrag direct trade."], ["user_id", 18], ["created_at", "2020-07-30 20:15:01.837697"], ["updated_at", "2020-07-30 20:15:01.837697"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Post-ironic yr hella squid kogi artisan."], ["content", "Waistcoat cliche banh mi flexitarian."], ["user_id", 19], ["created_at", "2020-07-30 20:15:01.841874"], ["updated_at", "2020-07-30 20:15:01.841874"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Taxidermy chia shabby chic shoreditch austin mumblecore ennui."], ["content", "Hashtag wes anderson carry austin."], ["user_id", 20], ["created_at", "2020-07-30 20:15:01.846343"], ["updated_at", "2020-07-30 20:15:01.846343"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#sed"], ["created_at", "2020-07-30 20:15:01.858471"], ["updated_at", "2020-07-30 20:15:01.858471"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#voluptates"], ["created_at", "2020-07-30 20:15:01.863680"], ["updated_at", "2020-07-30 20:15:01.863680"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#delectus"], ["created_at", "2020-07-30 20:15:01.867576"], ["updated_at", "2020-07-30 20:15:01.867576"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#mollitia"], ["created_at", "2020-07-30 20:15:01.871455"], ["updated_at", "2020-07-30 20:15:01.871455"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#dolores"], ["created_at", "2020-07-30 20:15:01.875842"], ["updated_at", "2020-07-30 20:15:01.875842"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#omnis"], ["created_at", "2020-07-30 20:15:01.880130"], ["updated_at", "2020-07-30 20:15:01.880130"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#expedita"], ["created_at", "2020-07-30 20:15:01.884195"], ["updated_at", "2020-07-30 20:15:01.884195"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#occaecati"], ["created_at", "2020-07-30 20:15:01.888666"], ["updated_at", "2020-07-30 20:15:01.888666"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#earum"], ["created_at", "2020-07-30 20:15:01.892907"], ["updated_at", "2020-07-30 20:15:01.892907"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "#est"], ["created_at", "2020-07-30 20:15:01.896767"], ["updated_at", "2020-07-30 20:15:01.896767"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Kitsch cold-pressed austin phlogiston you probably haven't heard of them.\", \"Thundercats hammock bespoke freegan etsy.\", \"Normcore squid hella pitchfork.\"]"], ["sender_id", 11], ["created_at", "2020-07-30 20:15:01.907084"], ["updated_at", "2020-07-30 20:15:01.907084"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMessageReceiver Create (0.3ms)[0m  [1m[32mINSERT INTO "message_receivers" ("private_message_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["private_message_id", 11], ["user_id", 12], ["created_at", "2020-07-30 20:15:01.922791"], ["updated_at", "2020-07-30 20:15:01.922791"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMessageReceiver Create (0.3ms)[0m  [1m[32mINSERT INTO "message_receivers" ("private_message_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["private_message_id", 11], ["user_id", 13], ["created_at", "2020-07-30 20:15:01.926845"], ["updated_at", "2020-07-30 20:15:01.926845"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Banh mi franzen kale chips swag.\", \"Artisan polaroid normcore typewriter.\", \"Street listicle yolo gentrify salvia vhs pork belly pabst.\"]"], ["sender_id", 12], ["created_at", "2020-07-30 20:15:01.930910"], ["updated_at", "2020-07-30 20:15:01.930910"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Narwhal austin mixtape fanny pack thundercats tousled seitan drinking.\", \"Street sartorial cred flexitarian everyday.\", \"Art party chartreuse chillwave knausgaard ugh biodiesel pickled pabst.\"]"], ["sender_id", 13], ["created_at", "2020-07-30 20:15:01.934739"], ["updated_at", "2020-07-30 20:15:01.934739"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Wayfarers everyday fanny pack asymmetrical.\", \"Kickstarter cliche banjo tacos kombucha raw denim umami brunch.\", \"Thundercats seitan kickstarter fashion axe small batch pour-over keytar cardigan.\"]"], ["sender_id", 14], ["created_at", "2020-07-30 20:15:01.939787"], ["updated_at", "2020-07-30 20:15:01.939787"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Blue bottle vice actually farm-to-table narwhal tumblr.\", \"Vegan butcher listicle biodiesel.\", \"Health forage tilde migas mlkshk keytar kitsch.\"]"], ["sender_id", 15], ["created_at", "2020-07-30 20:15:01.945789"], ["updated_at", "2020-07-30 20:15:01.945789"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Swag pbr&b loko occupy street fanny pack meh you probably haven't heard of them.\", \"Literally kombucha before they sold out twee plaid tilde stumptown tote bag.\", \"Hashtag chartreuse marfa tattooed.\"]"], ["sender_id", 16], ["created_at", "2020-07-30 20:15:01.950563"], ["updated_at", "2020-07-30 20:15:01.950563"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.6ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Bitters photo booth authentic freegan migas yr phlogiston.\", \"Knausgaard tumblr trust fund venmo sartorial biodiesel kinfolk.\", \"Vinegar cornhole small batch polaroid 3 wolf moon mustache.\"]"], ["sender_id", 17], ["created_at", "2020-07-30 20:15:01.956400"], ["updated_at", "2020-07-30 20:15:01.956400"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Pitchfork tofu chartreuse next level everyday.\", \"Taxidermy phlogiston microdosing.\", \"Mumblecore vice 90's hammock pour-over typewriter tofu flannel.\"]"], ["sender_id", 18], ["created_at", "2020-07-30 20:15:01.965393"], ["updated_at", "2020-07-30 20:15:01.965393"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Trust fund cleanse vinegar beard meggings austin art party.\", \"Knausgaard fashion axe franzen cronut deep v shabby chic try-hard.\", \"Jean shorts selfies lomo schlitz beard.\"]"], ["sender_id", 19], ["created_at", "2020-07-30 20:15:01.972044"], ["updated_at", "2020-07-30 20:15:01.972044"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPrivateMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "sender_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "[\"Banjo pabst swag craft beer bitters yuccie polaroid.\", \"Kinfolk offal cornhole.\", \"Listicle pickled pbr&b.\"]"], ["sender_id", 20], ["created_at", "2020-07-30 20:15:01.976682"], ["updated_at", "2020-07-30 20:15:01.976682"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m

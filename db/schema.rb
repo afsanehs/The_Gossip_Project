@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2020_07_30_195513) do
   end
 
   create_table "message_receivers", force: :cascade do |t|
-    t.integer "message_id"
+    t.integer "private_message_id"
     t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -38,7 +38,6 @@ ActiveRecord::Schema.define(version: 2020_07_30_195513) do
   create_table "private_messages", force: :cascade do |t|
     t.text "content"
     t.integer "sender_id"
-    t.integer "receiver_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

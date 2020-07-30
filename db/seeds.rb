@@ -61,16 +61,21 @@ tag8 = Tag.create!(title: "##{Faker::Lorem.word}")
 tag9 = Tag.create!(title: "##{Faker::Lorem.word}")
 tag10 = Tag.create!(title: "##{Faker::Lorem.word}")
 
-private_message1 = PrivateMessage.create!(content: Faker::Hipster.sentences, user: user1)
-private_message2 = PrivateMessage.create!(content: Faker::Hipster.sentences, user: user2)
-private_message3 = PrivateMessage.create!(content: Faker::Hipster.sentences, user: user3)
-private_message4 = PrivateMessage.create!(content: Faker::Hipster.sentences, user: user4)
-private_message5 = PrivateMessage.create!(content: Faker::Hipster.sentences, user: user5)
-private_message6 = PrivateMessage.create!(content: Faker::Hipster.sentences, user: user6)
-private_message7 = PrivateMessage.create!(content: Faker::Hipster.sentences, user: user7)
-private_message8 = PrivateMessage.create!(content: Faker::Hipster.sentences, user: user8)
-private_message9 = PrivateMessage.create!(content: Faker::Hipster.sentences, user: user9)
-private_message10 = PrivateMessage.create!(content: Faker::Hipster.sentences, user: user10)
+
+
+private_message1 = PrivateMessage.create!(content: Faker::Hipster.sentences, sender: user1)
+private_message1.recipients << user2
+private_message1.recipients << user3
+
+private_message2 = PrivateMessage.create!(content: Faker::Hipster.sentences, sender: user2)
+private_message3 = PrivateMessage.create!(content: Faker::Hipster.sentences, sender: user3)
+private_message4 = PrivateMessage.create!(content: Faker::Hipster.sentences, sender: user4)
+private_message5 = PrivateMessage.create!(content: Faker::Hipster.sentences, sender: user5)
+private_message6 = PrivateMessage.create!(content: Faker::Hipster.sentences, sender: user6)
+private_message7 = PrivateMessage.create!(content: Faker::Hipster.sentences, sender: user7)
+private_message8 = PrivateMessage.create!(content: Faker::Hipster.sentences, sender: user8)
+private_message9 = PrivateMessage.create!(content: Faker::Hipster.sentences, sender: user9)
+private_message10 = PrivateMessage.create!(content: Faker::Hipster.sentences, sender: user10)
 
 puts "done with seeds"
 
